@@ -1,0 +1,17 @@
+{
+  "name": "employeemen",
+  "version": "1.0.0",
+  "description": "An app to add or delete the users.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anirudh Malode",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.4"
+  }
+}

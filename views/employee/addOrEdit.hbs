@@ -1,0 +1,31 @@
+<h3> {{viewTitle}} </h3>
+
+<form action="/employee" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{employee._id}} ">
+    <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" class="form-control" name="fullName" placeholder="Full Name">
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" class="form-control" name="email" placeholder="Email">
+    </div>
+
+    <div class="form-group">
+        <label>Contact</label>
+        <input type="text" class="form-control" name="contact" placeholder="Contact">
+    </div>
+
+    <div class="form-group">
+        <label>Address</label>
+        <textarea name="address" cols="45" rows="2" class="form-control"></textarea>
+    </div>
+
+
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"> <i class="fa fa-database"></i> SUBMIT</button>
+        <a href="/employee/list" class="btn btn-secondary"><i class="fa fa-list-alt"></i> View All </a>
+    </div>
+</form>
